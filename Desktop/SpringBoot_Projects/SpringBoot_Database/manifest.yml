@@ -1,0 +1,9 @@
+---
+applications:
+- name: rutwik-test-1
+  memory: 1024M
+  buildpack: java_buildpack
+  routes:
+  - route: rutwik88.cfapps.io
+  services:
+  - first_serv
